@@ -2,7 +2,7 @@ def reverse_each_word (string)
   
   reverse = string.split(" ").map do |element|
   element.reverse
-  puts reverse.join
+  puts reverse.to_s
   # reverse_each_word.join
   
   end
