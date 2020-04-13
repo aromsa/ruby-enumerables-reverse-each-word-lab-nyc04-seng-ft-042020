@@ -1,8 +1,8 @@
 def reverse_each_word (string)
   
-  string.split(" ").map do |element|
+  reverse = string.split(" ").map do |element|
   element.reverse
-  puts 
+  puts reverse.joi
   # reverse_each_word.join
   
   end
