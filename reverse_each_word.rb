@@ -5,7 +5,7 @@ def reverse_each_word (string)
   # reverse_each_word.join
   
   end
-  new_string.join
+  new_string.join(" ")
   # reverse_each_word.to_s
 end
 
